@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head runat="server">
+<meta charset="utf-8"/>
+    <title>Pedidos Friolala</title>
+    <link href="./Styles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="./Styles/EstilosCorrales.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header">
+            <div>
+                <h1>
+                    Pedidos Friolala
+                </h1>
+            </div>
+            <div class="clear hideSkiplink">
+
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+    </div>
+    <div class="footer">
+        <label>- Grupo Corrales 2014 -</label>
+    </div>
+    </form>
+</body>
+</html>

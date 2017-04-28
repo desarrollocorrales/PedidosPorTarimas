@@ -1,0 +1,42 @@
+﻿.centrado 
+{
+    text-align: center;
+}
+
+.header
+{
+    background-color: #920D0D;
+}
+
+.main h2
+{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+#tablaControles
+{
+    width: 100%;
+}
+#tablaControles label
+{
+    margin-right: 0.5em;
+}
+#tablaControles .tdIzq
+{
+    text-align: right;
+}
+#tablaControles .tdDer
+{
+    text-align: left;
+}
+
+#gridTarimas
+{
+    margin: 1em auto;
+}
+.gridCentrado
+{
+    margin: 1em auto;
+}
+
